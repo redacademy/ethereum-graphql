@@ -4,8 +4,17 @@ const typeDefs = `
         balance: Int
     }
 
+    type DonationReceipt {
+        transactionHash: String!,
+        blockHash: String!,
+        blockNumber: Int!,
+        gasUsed: Int!,
+        status: Boolean!
+    }
+
     type Query {
-        contract: Contract
+        contract: Contract,
+        donate(amount: Int!): DonationReceipt 
     }
 `;
 
