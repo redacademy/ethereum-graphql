@@ -5,7 +5,7 @@ Call Solidity Smart Contract methods via GraphQL querys!
 ## Before you start
 
 1. Install the MetaMask Ethereum wallet (and register an account): https://metamask.io/ 
-2. Install: npm i -g ganache-cli (local Ethereum test network) 
+2. Install: `npm i -g ganache-cli` (local Ethereum test network) 
 
 ## Running the Project
 
