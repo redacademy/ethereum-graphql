@@ -3,7 +3,7 @@ const { address, ABI } = require("../../constants/donationContract");
 
 const getWeb3 = () => {
   return (web3 = new Web3(
-    new Web3.providers.HttpProvider("http://localhost:8545")
+    new Web3.providers.HttpProvider("http://localhost:8545") // ganache-cli address
   ));
 };
 

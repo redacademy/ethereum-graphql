@@ -1,6 +1,6 @@
 # ethereum-graphql Node Server
 
-A ethereum graphql node server app using web3, metamask, ganache and solidity (remix). This is a simple app that accepts donations from users and you can check contract balance anytime you want.
+A ethereum graphql node server app using web3, metamask, ganache and solidity (remix). This is a simple app that accepts donations from users and you can check contract balance too. It will also give you donation receipt.
 
 ## Getting Started
 

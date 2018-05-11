@@ -23,7 +23,7 @@ async function makeDonation(amount) {
         .make_donation("sending some either")
         .send({
           gas: 300000,
-          value: amount * 1000000000000000000,
+          value: amount * 1000000000000000000, // conver to wei
           from: coinbase
         })
         .then(res => (response = res))
@@ -38,7 +38,7 @@ const resolvers = {
     async contract() {
       let balance = 0;
       await getBalance()
-        .then(bal => (balance = bal / 1000000000000000000))
+        .then(bal => (balance = bal / 1000000000000000000)) // conver to eth
         .catch(err => console.log(err));
       return {
         address: contractInstance._address,
@@ -63,6 +63,7 @@ const resolvers = {
           status = res.status;
         })
         .catch(err => console.log(err));
+      // return donation receipt
       return {
         transactionHash,
         blockHash,
@@ -90,7 +91,7 @@ app.use("/graphql", bodyParser.json(), graphqlExpress({ schema }));
 // GraphiQL, a visual editor for queries
 app.use("/graphiql", graphiqlExpress({ endpointURL: "/graphql" }));
 
-// Start the server
+// Start the server and get contract instance
 app.listen(PORT, () => {
   console.log("Go to http://localhost:4000/graphiql to run queries!");
   getContract
