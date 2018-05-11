@@ -14,7 +14,7 @@ Call Solidity Smart Contract methods via GraphQL querys!
 3.  Open the Remix IDE (https://remix.ethereum.org/) and create a new file. 
 4.  Copy, paste the code from the `Donation.sol` file (in the root of this project).
 5.  Inside Remix select then `injected web3` Environment option under the Run tab.
-6.  Run `npm start` in the project's root directory.
+6.  Run `npm start` in the project's directory.
 
 ## Built With
 
