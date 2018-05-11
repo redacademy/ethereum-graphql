@@ -1,6 +1,6 @@
 # ethereum-graphql
 
-Call Solidity Smart Contract methods via GraphQL querys!
+Node, Express, GraphQL server with a Solidity Smart Contract backend!
 
 ## Before you start
 
