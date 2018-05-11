@@ -2,6 +2,9 @@
 
 An ethereum graphql node server app using web3, metamask, ganache and solidity (remix). This is a simple app that accepts donations from users and you can check contract balance too. It will also give you a donation receipt.
 
+![check balance](./img/checkBalance.png, "Check balance queries")
+![make donation](./img/makeDonation.png, "Make donation queries")
+
 ## Getting Started
 
 1.  clone this project on your machine
