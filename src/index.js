@@ -93,5 +93,7 @@ app.use("/graphiql", graphiqlExpress({ endpointURL: "/graphql" }));
 // Start the server
 app.listen(PORT, () => {
   console.log("Go to http://localhost:4000/graphiql to run queries!");
-  getContract.then(res => (contractInstance = res)).catch(err => (error = err));
+  getContract
+    .then(res => (contractInstance = res))
+    .catch(err => console.log(err));
 });
