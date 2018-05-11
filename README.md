@@ -2,6 +2,9 @@
 
 Node, Express, GraphQL server with a Solidity Smart Contract backend!
 
+![check balance](https://github.com/siddharthparmar7/ethereum-graphql/blob/master/img/checkBalance.png)
+![make donation](https://github.com/siddharthparmar7/ethereum-graphql/blob/master/img/makeDonation.png)
+
 ## Before you start
 
 1. Install the MetaMask Ethereum wallet (and register an account): https://metamask.io/ 
