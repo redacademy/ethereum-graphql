@@ -31,4 +31,4 @@ Sid Parmar
 
 ## Links
 
-Interested in teaching JavaSctip and Solidity with us at RED Academy? https://redacademy.com/careers/
+Interested in teaching JavaScript and Solidity with us at RED Academy? https://redacademy.com/careers/
