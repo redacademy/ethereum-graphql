@@ -1,6 +1,6 @@
-const address = "0x950f2569af9751a2cf10c55e0486832223fd3b3d"; // contract address
+const address = "0xf5b483fd49a2e1cf215c049423f10003e84bd006"; // contract address
 const ABI = [
-  // ABI from Remix
+  // ABI from remix
   {
     anonymous: false,
     inputs: [

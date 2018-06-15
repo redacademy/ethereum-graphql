@@ -38,14 +38,15 @@ const resolvers = {
     async contract() {
       let balance = 0;
       await getBalance()
-        .then(bal => (balance = bal / 1000000000000000000)) // conver to eth
+        .then(bal => (balance = bal / 1000000000000000000)) // convert to eth
         .catch(err => console.log(err));
       return {
         address: contractInstance._address,
         balance
       };
-    },
-
+    }
+  },
+  Mutation: {
     async donate(obj, args, context) {
       let transactionHash = "";
       let blockHash = "";

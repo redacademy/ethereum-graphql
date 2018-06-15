@@ -13,7 +13,10 @@ const typeDefs = `
     }
 
     type Query {
-        contract: Contract,
+        contract: Contract
+    }
+
+    type Mutation {
         donate(amount: Int!): DonationReceipt 
     }
 `;
