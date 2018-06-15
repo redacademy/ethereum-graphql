@@ -1,38 +1,37 @@
-# ethereum-graphql Node Server
+# ethereum-graphql
 
-An ethereum graphql node server app using web3, metamask, ganache and solidity (remix). This is a simple app that accepts donations from users and you can check contract balance too. It will also give you a donation receipt.
+Node, Express, GraphQL server with a Solidity Smart Contract backend!
 
-![check balance](img/checkBalance.png)
-![make donation](img/makeDonation.png)
+![check balance](https://github.com/siddharthparmar7/ethereum-graphql/blob/master/img/checkBalance.png)
+![make donation](https://github.com/siddharthparmar7/ethereum-graphql/blob/master/img/makeDonation.png)
 
-## Getting Started
+## Before you start
 
-1.  clone this project on your machine
-2.  `npm install` or `yarn install` in the root directory of this project.
-3.  open remix `https://remix.ethereum.org/` and create a new file and copy, paste from the donation.sol file. (in the root of this project.)
-4.  connect your remix with `injected web3` and `metamask` (I used ganache for this)
-5.  Run this project `npm start` or `yarn start`
+1.  Install the MetaMask Ethereum wallet (and register an account): https://metamask.io/
+2.  Install: `npm i -g ganache-cli` (local Ethereum test network)
 
-### Prerequisites
+## Running the Project
 
-1.  ganache-cli (`https://www.npmjs.com/package/ganache-cli`)
-    after installation
-    try `ganache-cli` to generate fake accounts and connect it to `metamask`, you will get 100 ehter for testing and don't forget to connect your metamask to the localhost.
+1.  `git clone` this repository
+2.  Run `npm install` from the project's directory.
+3.  Open the Remix IDE (https://remix.ethereum.org/) and create a new file.
+4.  Copy, paste the code from the `Donation.sol` file (in the root of this project).
+5.  Inside Remix select then `injected web3` Environment option under the Run tab.
+6.  Run `npm start` in the project's directory.
 
 ## Built With
 
-1.  Node
-2.  Express server
-3.  web3
-4.  graphql
-5.  Solidity (Remix)
-6.  Metamask
-7.  Ganache-cli
+- Node
+- Express
+- Web3
+- GraphQL
+- Solidity
+- ganache-cli
 
 ## Author
 
-Sid Parmar
+Sid Parmar [LinkedIn](www.linkedin.com/in/siddharth-parmar-a901a075)
 
-## Acknowledgments
+## Links
 
-All the good documentation out there
+Interested in teaching JavaScript and Solidity with us at RED Academy? https://redacademy.com/careers/
