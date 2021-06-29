@@ -30,7 +30,7 @@ Node, Express, GraphQL server with a Solidity Smart Contract backend!
 
 ## Author
 
-Sid Parmar [LinkedIn](www.linkedin.com/in/siddharth-parmar-a901a075)
+Sid Parmar [LinkedIn](https://linkedin.com/in/siddharth-parmar-a901a075)
 
 ## Links
 
